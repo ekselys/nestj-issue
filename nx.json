@@ -27,12 +27,18 @@
     ]
   },
   "projects": {
+    "dtos": {
+      "tags": []
+    },
     "test": {
       "tags": []
     },
     "test-e2e": {
       "tags": [],
       "implicitDependencies": ["test"]
+    },
+    "test-server": {
+      "tags": []
     }
   }
 }
